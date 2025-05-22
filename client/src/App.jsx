@@ -15,9 +15,10 @@ function App() {
     setRoast('');
 
     try {
-      const res = await axios.post('http://localhost:9898/roast', { name });
+      const res = await axios.post(`${import.meta.env.VITE_API_URL}/roast`, { name });
       setRoast(res.data.roast);
     } catch (error) {
+      console.error(error);
       setRoast('Oops! Roast failed. 😓');
     } finally {
       setLoading(false);
