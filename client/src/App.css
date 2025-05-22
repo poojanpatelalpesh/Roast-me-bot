@@ -1,0 +1,46 @@
+.container {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 2rem;
+  margin-left: 450px;
+  margin-top: 10px;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff4747;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #999;
+}
+
+.roast-box {
+  margin-top: 2rem;
+  background: #723939;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px dashed #ff4747;
+  width: 80%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.1rem;
+}
+
+.heading{
+  font-size: 70px;
+  /* background: #dac5c5; */
+}
